@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>TheGullyGuy</title>
+
+  <!-- css -->
+  <link rel="stylesheet" href="main.css">
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+
+  <!-- bootstrap icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+
+</head>
+
+<body>
+
+  <!-- Navbar content -->
+
+  <nav class="navbar navbar-expand-lg bg-light">
+
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <div class="image-logo"><img src="logo-removebg-preview-modified.png" alt=""></div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navis navbar-nav me-auto mb-2 mb-lg-0" style="margin-right: 20px !important;">
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gully's special</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Food
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Indian</a></li>
+              <li><a class="dropdown-item" href="#">Chinese</a></li>
+              <li><a class="dropdown-item" href="#">Street</a></li>
+              <li><a class="dropdown-item" href="#">Multi-Quisine</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <!-- <li><a class="dropdown-item" href="#">hllo</a></li> -->
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Accomodation
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Hotels</a></li>
+              <li><a class="dropdown-item" href="#">Dormitory</a></li>
+              <li><a class="dropdown-item" href="#">Zostels</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <!-- <li><a class="dropdown-item" href="#">hllo</a></li> -->
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Book Tickets
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"><i class="bi bi-train-front"></i> Train</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-airplane"></i> Flights</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-car-front"></i> Cabs</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <!-- <li><a class="dropdown-item" href="#">hllo</a></li> -->
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              On Rent
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Two-Wheelers</a></li>
+              <li><a class="dropdown-item" href="#">Four-wheelers</a></li>
+              <li><a class="dropdown-item" href="#">Tourist Travels</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <!-- <li><a class="dropdown-item" href="#">hllo</a></li> -->
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cta">About Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="search btn btn-outline-success" type="submit">Search</button>
+        </form>
+       
+        
+      </div>
+    </div>
+    <div class="user dropdown dropstart">
+      <a href=""  type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-person-circle bro"></i></a>
+      <ul class="dropdown-menu">
+        <li class="high"><img src="mypic.jpg" class="ima-one"><a class="dropdown-item" href="#">Nitish Kulkarni</a></li>
+        <hr> 
+        <li class="high"><i class="bi bi-person-check-fill hey"></i><a class="dropdown-item" href="profile.html">Edit Profile</a></li>
+        <li class="high"><i class="bi bi-gear-fill hey"></i><a class="dropdown-item" href="#">Settings & Privacy</a></li>
+        <li class="high"><i class="bi bi-question-circle-fill hey"></i><a class="dropdown-item" href="#">Help & Support</a></li>
+        <li class="high"><i class="bi bi-box-arrow-left hey"></i><a class="dropdown-item" href="#">Logout</a></li>
+      </ul>
+    </div>
+    <!-- <div class="sub-menu-wrap">
+      <div class="sub-menu">
+        <div class="user-info">
+          <img src="" alt="Your profile pic">
+          <h4>Nitish Kulkarni</h4>
+        </div>
+        <hr>
+      </div>
+    </div> -->
+  </nav>
+
+  <!-- carousel -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+
+        <img src="intheair.jpg" class="im_1 d-block w-100" alt="Image of SKY">
+        <!-- <h1>Hi</h1> -->
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Above the clouds</h5>
+          <p>Feel the magic in the air with us.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="qutub.jpg" class="im_1  d-block w-100" alt="QUTUB MINAR">
+        <!-- <h1>Hello</h1> -->
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Qutub Minar</h5>
+          <p>Taking you to the past!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="taj1.jpg" class="im_1  d-block h-500px w-100" alt="Image of TAJ MAHAL">
+        <!-- <h1>bye</h1> -->
+        <div class="carousel-caption d-none d-md-block">
+          <h5>TAJ</h5>
+          <p>The unctouched heaven .</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <section>
+    <div class="content">
+      <div class="card-box">
+        <h3 class="sub-head"><i class="bi bi-geo-alt-fill"></i>. . .<br>Explore Every<br> inch</h3>
+
+        <!-- card--1 -->
+        <div class="cards card">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img src="https://cdn.pixabay.com/photo/2017/05/09/03/46/alberta-2297204__340.jpg"
+              class="card-img img-fluid" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Nature</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#!" class="btn btn-primary">See more</a>
+          </div>
+        </div>
+
+        <!-- card--2 -->
+        <div class="cards card">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img class="card-img" src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.webp"
+              class="card-img img-fluid" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Beaches</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#!" class="btn btn-primary">See more</a>
+          </div>
+        </div>
+
+        <!-- card--3 -->
+        <div class="cards card">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img class="card-img"
+              src="https://destinationdeluxe.com/wp-content/uploads/2021/06/Adventure-Activities-Destination-Deluxe.jpg"
+              class="card-img img-fluid" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Adventure</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#!" class="btn btn-primary">See more</a>
+          </div>
+        </div>
+
+        <!-- card--4 -->
+        <div class="cards card">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFCvbyAhUb53UnFlij11RKghV4XzzJz3r4lMmAheEqTayODJJ-BC1B7dyaA3C-95vSO_Q&usqp=CAU"
+              class="card-img img-fluid" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Piligrimage</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#!" class="btn btn-primary">See more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="info-main">
+      <div class="info-head">
+        <h2 class="info-form-head">Are you looking for a perfect vacation?</h2>
+        <p class="info-form-sub-head">Just fill the form and leave the rest to us</p>
+      </div>
+
+      <!-- form -->
+      <div class="form-subb">
+        <div class="from">
+          <!-- <div class="now"> -->
+          <form action="mailto:thegully.guy.official@gmail.com" method="post" enctype="text/plain">
+            <div class="row">
+              <div class="col-6">
+                <div class="form-group">
+                  <p class="start">Full Name</p>
+                  <input type="text" class="form-control" name="full-name">
+                  <p class="end">First Name</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <input type="text" id="new" class="form-control" name="last-name">
+                <p class="end">Last Name</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <p class="start">Email</p>
+                <input type="text" class="form-control" name="your email">
+                <p class="end">Example@example.com</p>
+              </div>
+              <div class="col-6">
+                <p class="start">Phone Number</p>
+                <input type="number" class="form-control" name="your number">
+                <p class="end">Please enter a valid phone number</p>
+              </div>
+            </div>
+            <div class="col-12">
+              <p class="start">Address</p>
+              <input type="text" class="form-control" name="your address">
+              <p class="end">Street Address</p>
+            </div>
+            <div class="col-12">
+              <input type="text" class="form-control" name="your-address">
+              <p class="end">Street Address line 2</p>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="your city" id="city-12">
+                  <p class="end">City</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="your state" id="city-123">
+                  <p class="end">State/Province</p>
+                </div>
+              </div>
+            </div>
+            <!-- </div> -->
+            <div class="col-12">
+              <input type="number" class="form-control" name="po-code">
+              <p class="end">Postal/Zip Code</p>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <div class="form-group">
+                  <label class="start">Departure City</label>
+                  <input type="text" class="form-control" name="your-own">
+                </div>
+              </div>
+              <div class="col-6">
+
+                <div class="form-group">
+                  <label class="start">Arrival City</label>
+                  <input type="text" class="form-control" name="your-own-arr">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <div class="form-group">
+                  <p class="start">Departure Date</p>
+                  <input type="date" class="form-control" name="u-date">
+                  <p class="end">Date</p>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <div class="form-group">
+                  <p class="start">Return Date</p>
+                  <input type="date" class="form-control" name="u-date">
+                  <p class="end">Date</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="form-group">
+                  <p class="start">Additional Information</p>
+                  <textarea class="form-control" name="texthere" id="" cols="58" rows="10" maxlength="200"
+                    placeholder="Type here...">
+              </textarea>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-3">
+                <input type="submit" class="last form-control" name="submit">
+              </div>
+              <div class="col-3">
+                <input type="reset" class="last form-control" name="submit">
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+    </form>
+    </div>
+    </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <hr size="3">
+  <footer id="cta" class="foot">
+
+    <h4 class="Foot-head">Connect with Us</h4>
+
+    <div class="social-media">
+      <a class="social-link" href="https://www.instagram.com/the_gullyguy_/" target="_blank"><i
+          class="socio bi bi-instagram"></i></a>
+      <a class="social-link" href="#"><i class="socio bi bi-facebook"></i></a>
+      <a class="social-link" href="#"><i class="socio bi bi-whatsapp"></i></a>
+      <a class="social-link" href="#"><i class="socio bi bi-envelope"></i></a>
+      <a class="social-link" href="#"><i class="bi bi-medium"></i></a>
+    </div>
+    <div class="f"><p class="end">©copyright The Gully Guy</p></div>
+    
+    
+  </footer>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script src="index.js" charset="utf-8"></script>
+  
+</body>
+
+</html>
