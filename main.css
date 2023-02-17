@@ -236,12 +236,14 @@ width: 450px;
 
 .foot{
     margin-top: 20px;
+    
 }
 
 .end{
     font-size: 10px; 
 }
 .f{
+    background-color: blanchedalmond;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -344,17 +346,41 @@ width: 450px;
 /* Logout Page styling */
 
 .logout_main_cont{
+    background-color: blanchedalmond;
+    height: 100vh;
     text-align: center !important;
-    border: 2px solid green;
+    border: 2px solid blanchedalmond;
 }
 .log_form{
-    border: 2px solid red;
+    background-color: #DEF5E5;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 3px #8ec3b0;
     width: 400px;
-    height: 600px;
+    height: 550px;
     text-align: center !important;
-    margin:20px  auto;
+    margin:40px  auto;
 }
 
 .log_form_email{
-    
+    width: 384px !important;
+    margin: 5px 7px;
+    /* height: 20px !important; */
+}
+
+.log_form_submit{
+    width: 378px !important;
+    margin: 20px 10px;
+}
+
+.log-img{
+    margin: 10px auto;
+    height: 100px;
+    width: 100px;
+
+}
+
+.log-foot{
+    margin-top: 20px;
+    background-color: blanchedalmond;
 }
